@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        .dino {
+            width: 200px;
+            position: relative;
+            animation: moveDino 3s infinite alternate;
+        }
+        @keyframes moveDino {
+            from { left: 0px; }
+            to { left: 200px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Dinosaur World</h1>
+    <p>Explore the fascinating world of dinosaurs!</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Tyrannosaurus_Rex_Holotype.png" alt="Dinosaur" class="dino">
+</body>
+</html>
